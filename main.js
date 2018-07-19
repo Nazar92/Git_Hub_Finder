@@ -30,7 +30,6 @@ $(document).ready(function() {
                   <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
                   <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                 </div>
-                <div>Some: ${repos.commit}</div>
                 <div class="col-md-2">
                   <a href="${repo.html_url}" target="_blank" class="btn btn-default">Repo Page</a>
                 </div>
